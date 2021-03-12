@@ -1,0 +1,12 @@
+12/Mar/2021:18:30:05 943 [Calculator.java] [INFO] Calculator Factorial of negative number is not possible!
+12/Mar/2021:18:30:05 947 [Calculator.java] [INFO] Calculator Factorial of the number : 5
+ Result is : 120
+12/Mar/2021:18:30:05 947 [Calculator.java] [INFO] Calculator Factorial of the number : 6
+ Result is : 720
+12/Mar/2021:18:30:05 950 [Calculator.java] [INFO] Calculator Power : 4^2/n Result : 16.0
+12/Mar/2021:18:30:05 951 [Calculator.java] [INFO] Calculator Logarithm of negative number is not possible!
+12/Mar/2021:18:30:05 952 [Calculator.java] [INFO] Calculator SQRT of negative number is not possible!
+12/Mar/2021:18:30:05 953 [Calculator.java] [INFO] Calculator Square Root of : 16
+ Result : 4.0
+12/Mar/2021:18:30:05 954 [Calculator.java] [INFO] Calculator Natural Logarithm of : 2
+ Result : 0.6931471805599453

@@ -41,11 +41,13 @@ public class Calculator {
             }
             catch (InputMismatchException e)
             {
+            	logger.error("Invalid input, Entered input is not a number");
                 System.out.println("Wrong Input");
 
             }
             catch (IllegalArgumentException e)
             {
+            	logger.error("Input can't be negative");
                 System.out.println("Input cant be negative");
             }
 
@@ -66,12 +68,13 @@ public class Calculator {
         for(long i=1;i<=n;i++){
             fact=fact*i;
         }
-        logger.info("Factorial of the number : " + n + "\n Result is : " + fact);
+        logger.info("[Fact] - " + n);
+        logger.info("[RESULT - Fact] - " + fact);
         return fact;
     }
 
     public static double power(long a,long b){
-        logger.info("Power : " + a + "^" + b + "/n Result : " + Math.pow(a, b));
+        
         return Math.pow(a,b);
     }
 
