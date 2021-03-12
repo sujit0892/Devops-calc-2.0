@@ -1,7 +1,10 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator {
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int ch;
@@ -54,29 +57,44 @@ public class Calculator {
     }
 
     public static long fact(long n){
-        if(n<0)
+        if(n<0){
+            logger.info("Factorial of negative number is not possible!");
             throw new IllegalArgumentException();
+        }
+
         long fact=1;
         for(long i=1;i<=n;i++){
             fact=fact*i;
         }
+        logger.info("Factorial of the number : " + n + "\n Result is : " + fact);
         return fact;
     }
 
     public static double power(long a,long b){
-        return java.lang.Math.pow(a,b);
+        logger.info("Power : " + a + "^" + b + "/n Result : " + Math.pow(a, b));
+        return Math.pow(a,b);
     }
 
     public static double log(long a){
         if(a<0)
+        {
+            logger.info("Logarithm of negative number is not possible!");
             throw new IllegalArgumentException();
-        return java.lang.Math.log(a);
+        }
+
+        logger.info("Natural Logarithm of : " + a + "\n Result : " + Math.log(a));
+        return Math.log(a);
     }
 
     public static double sqrt(long a){
         if(a<0)
+        {
+            logger.info("SQRT of negative number is not possible!");
             throw new IllegalArgumentException();
-        return java.lang.Math.sqrt(a);
+        }
+
+        logger.info("Square Root of : " + a + "\n Result : " + Math.sqrt(a));
+        return Math.sqrt(a);
     }
 
 

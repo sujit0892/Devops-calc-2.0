@@ -51,7 +51,7 @@ public class CalculatorTest {
     @Test
     public void sqrt()
     {
-        assertTrue("testcase 4", 4 == calculator.sqrt(16));
+        assertTrue("testcase 4", 4.0 == calculator.sqrt(16));
         ;
     }
 
