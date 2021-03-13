@@ -1,12 +1,26 @@
-12/Mar/2021:18:30:05 943 [Calculator.java] [INFO] Calculator Factorial of negative number is not possible!
-12/Mar/2021:18:30:05 947 [Calculator.java] [INFO] Calculator Factorial of the number : 5
- Result is : 120
-12/Mar/2021:18:30:05 947 [Calculator.java] [INFO] Calculator Factorial of the number : 6
- Result is : 720
-12/Mar/2021:18:30:05 950 [Calculator.java] [INFO] Calculator Power : 4^2/n Result : 16.0
-12/Mar/2021:18:30:05 951 [Calculator.java] [INFO] Calculator Logarithm of negative number is not possible!
-12/Mar/2021:18:30:05 952 [Calculator.java] [INFO] Calculator SQRT of negative number is not possible!
-12/Mar/2021:18:30:05 953 [Calculator.java] [INFO] Calculator Square Root of : 16
- Result : 4.0
-12/Mar/2021:18:30:05 954 [Calculator.java] [INFO] Calculator Natural Logarithm of : 2
- Result : 0.6931471805599453
+13/Mar/2021:15:54:23 243 [Calculator.java] [ERROR] Calculator Factorial of -ve no is not possible!
+13/Mar/2021:15:54:23 246 [Calculator.java] [INFO] Calculator [power] - 4,2
+13/Mar/2021:15:54:23 248 [Calculator.java] [INFO] Calculator [Result - log] - 16.0
+13/Mar/2021:15:54:23 251 [Calculator.java] [ERROR] Calculator Log of -ve no. is not possible!
+13/Mar/2021:15:54:23 252 [Calculator.java] [ERROR] Calculator SQRT of -ve no. is not possible!
+13/Mar/2021:15:54:23 253 [Calculator.java] [INFO] Calculator [Fact] - 5
+13/Mar/2021:15:54:23 253 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 120
+13/Mar/2021:15:54:23 254 [Calculator.java] [INFO] Calculator [Fact] - 6
+13/Mar/2021:15:54:23 254 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 720
+13/Mar/2021:15:54:23 255 [Calculator.java] [INFO] Calculator [SQRT] - 16
+13/Mar/2021:15:54:23 255 [Calculator.java] [INFO] Calculator [Result - SQRT] - 4.0
+13/Mar/2021:15:54:23 256 [Calculator.java] [INFO] Calculator [Log] - 2
+13/Mar/2021:15:54:23 256 [Calculator.java] [INFO] Calculator [Result - log] - 0.6931471805599453
+13/Mar/2021:16:10:58 538 [Calculator.java] [ERROR] Calculator Factorial of -ve no is not possible!
+13/Mar/2021:16:10:58 545 [Calculator.java] [INFO] Calculator [Fact] - 5
+13/Mar/2021:16:10:58 545 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 120
+13/Mar/2021:16:10:58 546 [Calculator.java] [INFO] Calculator [Fact] - 6
+13/Mar/2021:16:10:58 546 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 720
+13/Mar/2021:16:10:58 547 [Calculator.java] [INFO] Calculator [power] - 4,2
+13/Mar/2021:16:10:58 550 [Calculator.java] [INFO] Calculator [Result - log] - 16.0
+13/Mar/2021:16:10:58 551 [Calculator.java] [ERROR] Calculator Log of -ve no. is not possible!
+13/Mar/2021:16:10:58 551 [Calculator.java] [ERROR] Calculator SQRT of -ve no. is not possible!
+13/Mar/2021:16:10:58 552 [Calculator.java] [INFO] Calculator [SQRT] - 16
+13/Mar/2021:16:10:58 553 [Calculator.java] [INFO] Calculator [Result - SQRT] - 4.0
+13/Mar/2021:16:10:58 553 [Calculator.java] [INFO] Calculator [Log] - 2
+13/Mar/2021:16:10:58 554 [Calculator.java] [INFO] Calculator [Result - log] - 0.6931471805599453

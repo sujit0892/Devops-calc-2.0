@@ -18,7 +18,7 @@ public class Calculator {
                 {
                     case 1: System.out.print("Enter a number: ");
                         a = sc.nextLong();
-                        System.out.println(fact(a));
+//                        System.out.println(fact(a));
                         break;
                     case 2: System.out.print("Enter two number a^b : ");
                         a = sc.nextLong();
@@ -34,14 +34,16 @@ public class Calculator {
                         System.out.println(sqrt(a));
                         break;
                     case 5: System.exit(0);
+                        logger.info("[Exit]");
                         break;
 
                     default: System.out.println("Wrong Input");
+                        logger.error("Invalid input");
                 }
             }
             catch (InputMismatchException e)
             {
-            	logger.error("Invalid input, Entered input is not a number");
+            	logger.error("Invalid input");
                 System.out.println("Wrong Input");
 
             }
@@ -60,7 +62,7 @@ public class Calculator {
 
     public static long fact(long n){
         if(n<0){
-            logger.info("Factorial of negative number is not possible!");
+            logger.error("Factorial of -ve no is not possible!");
             throw new IllegalArgumentException();
         }
 
@@ -74,29 +76,32 @@ public class Calculator {
     }
 
     public static double power(long a,long b){
-        
+        logger.info("[power] - " + a+","+b);
+        logger.info("[Result - log] - " + Math.pow(a,b));
         return Math.pow(a,b);
     }
 
     public static double log(long a){
         if(a<0)
         {
-            logger.info("Logarithm of negative number is not possible!");
+            logger.error("Log of -ve no. is not possible!");
             throw new IllegalArgumentException();
         }
 
-        logger.info("Natural Logarithm of : " + a + "\n Result : " + Math.log(a));
+        logger.info("[Log] - " + a);
+        logger.info("[Result - log] - " + Math.log(a));
         return Math.log(a);
     }
 
     public static double sqrt(long a){
         if(a<0)
         {
-            logger.info("SQRT of negative number is not possible!");
+            logger.error("SQRT of -ve no. is not possible!");
             throw new IllegalArgumentException();
         }
 
-        logger.info("Square Root of : " + a + "\n Result : " + Math.sqrt(a));
+        logger.info("[SQRT] - " + a);
+        logger.info("[Result - SQRT] - " + Math.sqrt(a));
         return Math.sqrt(a);
     }
 

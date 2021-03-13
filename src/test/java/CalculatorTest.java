@@ -12,7 +12,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void factOne() {
+    public void factTruePositive() {
         assertEquals("testcase 1", 120, calculator.fact(5));
         ;
     }
