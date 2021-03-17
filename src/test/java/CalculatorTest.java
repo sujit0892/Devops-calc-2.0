@@ -18,45 +18,65 @@ public class CalculatorTest {
     }
 
     @Test
-    public void factTwo() {
+    public void factFalsePositive() {
         assertFalse("testcase 2", 120 == calculator.fact(6));
         ;
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void factNegatve() {
+    @Test(expected = ArithmeticException.class)
+    public void factError() {
         long f = -1;
         calculator.fact(-1);
     }
 
     @Test
-    public void power() {
+    public void powerTruePositive() {
         assertTrue("testcase 3", 16 == calculator.power(4, 2));
         ;
     }
 
     @Test
-    public void log()
-    {
-        assertTrue("testcase 4", 0.6931471805599453 == calculator.log(2));
+    public void powerFalsePositive() {
+        assertFalse("testcase 4", 16 == calculator.power(8, 2));
         ;
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void logNegatve() {
+    @Test
+    public void logTruePositive()
+    {
+        assertTrue("testcase 5", 0.6931471805599453 == calculator.log(2));
+        ;
+    }
+
+    @Test
+    public void logFalsePositive()
+    {
+        assertFalse("testcase 6", 0.6931499453 == calculator.log(68));
+        ;
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void logError() {
         long f = -1;
         calculator.log(-1);
     }
 
     @Test
-    public void sqrt()
+    public void sqrtTruePositive()
     {
-        assertTrue("testcase 4", 4.0 == calculator.sqrt(16));
+        assertTrue("testcase 7", 4.0 == calculator.sqrt(16));
         ;
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void sqrtNegatve() {
+    @Test
+    public void sqrtFalsePositive()
+    {
+        assertFalse("testcase 8", 4.0 == calculator.sqrt(96));
+        ;
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void sqrtError() {
         long f = -1;
         calculator.sqrt(-1);
     }

@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1063f688-e53f-4f82-b523-9d9758ee7c30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.log" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Devops-calc-2.0-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Devops-calc-2.0-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CalculatorTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1615539766976</updated>
       <workItem from="1615539772860" duration="4027000" />
-      <workItem from="1615630545990" duration="2267000" />
+      <workItem from="1615630545990" duration="5944000" />
+      <workItem from="1615975428592" duration="2723000" />
     </task>
     <servers />
   </component>
@@ -81,25 +83,25 @@
       <screen x="0" y="27" width="1600" height="823" />
     </state>
     <state x="395" y="100" width="800" height="684" key="#Project_Structure/0.27.1600.823@0.27.1600.823" timestamp="1615541582778" />
-    <state width="1554" height="200" key="GridCell.Tab.0.bottom" timestamp="1615631952745">
+    <state width="1554" height="200" key="GridCell.Tab.0.bottom" timestamp="1615723322856">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state width="1554" height="200" key="GridCell.Tab.0.bottom/0.27.1600.823@0.27.1600.823" timestamp="1615631952745" />
-    <state width="1554" height="200" key="GridCell.Tab.0.center" timestamp="1615631952741">
+    <state width="1554" height="200" key="GridCell.Tab.0.bottom/0.27.1600.823@0.27.1600.823" timestamp="1615723322856" />
+    <state width="1554" height="200" key="GridCell.Tab.0.center" timestamp="1615723322854">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state width="1554" height="200" key="GridCell.Tab.0.center/0.27.1600.823@0.27.1600.823" timestamp="1615631952741" />
-    <state width="1554" height="200" key="GridCell.Tab.0.left" timestamp="1615631952739">
+    <state width="1554" height="200" key="GridCell.Tab.0.center/0.27.1600.823@0.27.1600.823" timestamp="1615723322854" />
+    <state width="1554" height="200" key="GridCell.Tab.0.left" timestamp="1615723322852">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state width="1554" height="200" key="GridCell.Tab.0.left/0.27.1600.823@0.27.1600.823" timestamp="1615631952739" />
-    <state width="1554" height="200" key="GridCell.Tab.0.right" timestamp="1615631952742">
+    <state width="1554" height="200" key="GridCell.Tab.0.left/0.27.1600.823@0.27.1600.823" timestamp="1615723322852" />
+    <state width="1554" height="200" key="GridCell.Tab.0.right" timestamp="1615723322855">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state width="1554" height="200" key="GridCell.Tab.0.right/0.27.1600.823@0.27.1600.823" timestamp="1615631952742" />
-    <state x="456" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1615630549911">
+    <state width="1554" height="200" key="GridCell.Tab.0.right/0.27.1600.823@0.27.1600.823" timestamp="1615723322855" />
+    <state x="456" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1615975423647">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state x="456" y="266" key="com.intellij.ide.util.TipDialog/0.27.1600.823@0.27.1600.823" timestamp="1615630549911" />
+    <state x="456" y="266" key="com.intellij.ide.util.TipDialog/0.27.1600.823@0.27.1600.823" timestamp="1615975423647" />
   </component>
 </project>

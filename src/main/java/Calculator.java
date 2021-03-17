@@ -23,15 +23,15 @@ public class Calculator {
                     case 2: System.out.print("Enter two number a^b : ");
                         a = sc.nextLong();
                         b = sc.nextLong();
-                        System.out.println((long)power(a,b));
+//                        System.out.println(power(a,b));
                         break;
                     case 3: System.out.print("Enter a number: ");
                         a = sc.nextLong();
-                        System.out.println(log(a));
+//                        System.out.println(log(a));
                         break;
                     case 4: System.out.print("Enter a number: ");
                         a = sc.nextLong();
-                        System.out.println(sqrt(a));
+//                        System.out.println(sqrt(a));
                         break;
                     case 5: System.exit(0);
                         logger.info("[Exit]");
@@ -47,7 +47,7 @@ public class Calculator {
                 System.out.println("Wrong Input");
 
             }
-            catch (IllegalArgumentException e)
+            catch (ArithmeticException e)
             {
             	logger.error("Input can't be negative");
                 System.out.println("Input cant be negative");
@@ -63,7 +63,7 @@ public class Calculator {
     public static long fact(long n){
         if(n<0){
             logger.error("Factorial of -ve no is not possible!");
-            throw new IllegalArgumentException();
+            throw new ArithmeticException();
         }
 
         long fact=1;
@@ -85,7 +85,7 @@ public class Calculator {
         if(a<0)
         {
             logger.error("Log of -ve no. is not possible!");
-            throw new IllegalArgumentException();
+            throw new ArithmeticException();
         }
 
         logger.info("[Log] - " + a);
@@ -97,7 +97,7 @@ public class Calculator {
         if(a<0)
         {
             logger.error("SQRT of -ve no. is not possible!");
-            throw new IllegalArgumentException();
+            throw new ArithmeticException();
         }
 
         logger.info("[SQRT] - " + a);
