@@ -138,3 +138,22 @@
 17/Mar/2021:16:21:21 439 [Calculator.java] [INFO] Calculator [Result - log] - 16.0
 17/Mar/2021:16:50:25 578 [Calculator.java] [INFO] Calculator [Fact] - 5
 17/Mar/2021:16:50:25 583 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 120
+17/Mar/2021:17:01:01 155 [Calculator.java] [INFO] Calculator [power] - 4,2
+17/Mar/2021:17:01:01 160 [Calculator.java] [INFO] Calculator [Result - log] - 16.0
+17/Mar/2021:17:01:01 162 [Calculator.java] [INFO] Calculator [power] - 8,2
+17/Mar/2021:17:01:01 162 [Calculator.java] [INFO] Calculator [Result - log] - 64.0
+17/Mar/2021:17:01:01 163 [Calculator.java] [INFO] Calculator [Log] - 2
+17/Mar/2021:17:01:01 163 [Calculator.java] [INFO] Calculator [Result - log] - 0.6931471805599453
+17/Mar/2021:17:01:01 164 [Calculator.java] [INFO] Calculator [Log] - 68
+17/Mar/2021:17:01:01 165 [Calculator.java] [INFO] Calculator [Result - log] - 4.219507705176107
+17/Mar/2021:17:01:01 166 [Calculator.java] [ERROR] Calculator Log of -ve no. is not possible!
+17/Mar/2021:17:01:01 167 [Calculator.java] [INFO] Calculator [SQRT] - 16
+17/Mar/2021:17:01:01 168 [Calculator.java] [INFO] Calculator [Result - SQRT] - 4.0
+17/Mar/2021:17:01:01 168 [Calculator.java] [INFO] Calculator [SQRT] - 96
+17/Mar/2021:17:01:01 169 [Calculator.java] [INFO] Calculator [Result - SQRT] - 9.797958971132712
+17/Mar/2021:17:01:01 170 [Calculator.java] [ERROR] Calculator SQRT of -ve no. is not possible!
+17/Mar/2021:17:01:01 171 [Calculator.java] [INFO] Calculator [Fact] - 6
+17/Mar/2021:17:01:01 171 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 720
+17/Mar/2021:17:01:01 172 [Calculator.java] [INFO] Calculator [Fact] - 5
+17/Mar/2021:17:01:01 172 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 120
+17/Mar/2021:17:01:01 173 [Calculator.java] [ERROR] Calculator Factorial of -ve no is not possible!
