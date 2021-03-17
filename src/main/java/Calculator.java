@@ -18,20 +18,20 @@ public class Calculator {
                 {
                     case 1: System.out.print("Enter a number: ");
                         a = sc.nextLong();
-//                        System.out.println(fact(a));
+                        System.out.println(fact(a));
                         break;
                     case 2: System.out.print("Enter two number a^b : ");
                         a = sc.nextLong();
                         b = sc.nextLong();
-//                        System.out.println(power(a,b));
+                        System.out.println(power(a,b));
                         break;
                     case 3: System.out.print("Enter a number: ");
                         a = sc.nextLong();
-//                        System.out.println(log(a));
+                        System.out.println(log(a));
                         break;
                     case 4: System.out.print("Enter a number: ");
                         a = sc.nextLong();
-//                        System.out.println(sqrt(a));
+                        System.out.println(sqrt(a));
                         break;
                     case 5: System.exit(0);
                         logger.info("[Exit]");

@@ -136,3 +136,5 @@
 17/Mar/2021:16:21:21 438 [Calculator.java] [ERROR] Calculator SQRT of -ve no. is not possible!
 17/Mar/2021:16:21:21 439 [Calculator.java] [INFO] Calculator [power] - 4,2
 17/Mar/2021:16:21:21 439 [Calculator.java] [INFO] Calculator [Result - log] - 16.0
+17/Mar/2021:16:50:25 578 [Calculator.java] [INFO] Calculator [Fact] - 5
+17/Mar/2021:16:50:25 583 [Calculator.java] [INFO] Calculator [RESULT - Fact] - 120
